@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.wrapper {
+  min-width: 280px;
+  max-width: 20%;
+  margin: 20px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.debugLeyend {
+  color: gray;
+  margin: 10px auto;
+}
+
+.actionButton {
+  cursor: pointer;
+  margin: 30px;
+  padding: 25px;
+}
+
+.actionButtonDisabled {
+  cursor: not-allowed;
+  margin: 30px;
+  padding: 25px;
+}
+
+.errorMessage {
+  color: red;
+  margin: 0 auto;
+}
+
+.successMessage {
+  color: green;
+  margin: 0 auto;
+}
