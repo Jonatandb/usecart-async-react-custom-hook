@@ -1,15 +1,14 @@
 {
-  "name": "usecart-async-react-hook-by-jonatandb",
+  "name": "usecart-async-react-custom-hook-by-jonatandb",
   "version": "1.0.0",
-  "description": "Simple custom hook that works asynchronously by Jonatandb.",
+  "description": "Simple custom hook that works asynchronously by Jonatandb.\n\nhttps://github.com/Jonatandb/usecart-async-react-custom-hook",
   "keywords": [
-    "react-hooks",
-    "await",
-    "custom-hook",
-    "es6",
-    "async",
-    "async-await",
     "jonatandb",
+    "async",
+    "es6",
+    "custom-hook",
+    "await",
+    "react-hooks",
     "react"
   ],
   "main": "src/index.js",
