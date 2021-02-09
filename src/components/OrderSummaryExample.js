@@ -72,24 +72,42 @@ const OrderSummaryExample = () => {
   };
 
   return (
-    <div className="wrapper">
-      <small className="debugLeyend">
-        (Check the console for debug details)
+    <>
+      <div className="App">
+        <h1>Component that uses an async hook - Live Demo </h1>
+        <h2>
+          by{" "}
+          <a
+            href="http://www.github.com/Jonatandb"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Jonatandb
+          <span role="img" aria-label="Jonatandb happy with sunglasses">
+              😎
+          </span>
+          </a>
+        </h2>
+      </div>
+      <div className="wrapper">
+        <small className="debugLeyend">
+          (Check the console for debug details)
       </small>
-      <button
-        className={`${processing ? "actionButtonDisabled" : "actionButton"}`}
-        onClick={hacerAlgoAsync}
-        disabled={processing}
-      >
-        {buttonText}
-      </button>
-      {errorCheckoutMessage && (
-        <h3 className="errorMessage">{errorCheckoutMessage}</h3>
-      )}
-      {checkoutReadyMessage && (
-        <h3 className="successMessage">{checkoutReadyMessage}</h3>
-      )}
-    </div>
+        <button
+          className={`${processing ? "actionButtonDisabled" : "actionButton"}`}
+          onClick={hacerAlgoAsync}
+          disabled={processing}
+        >
+          {buttonText}
+        </button>
+        {errorCheckoutMessage && (
+          <h3 className="errorMessage">{errorCheckoutMessage}</h3>
+        )}
+        {checkoutReadyMessage && (
+          <h3 className="successMessage">{checkoutReadyMessage}</h3>
+        )}
+      </div>
+    </>
   );
 };
 
